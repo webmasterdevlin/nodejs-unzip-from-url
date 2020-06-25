@@ -1,0 +1,27 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.1.2",
+    "adm-zip": "^0.4.16",
+    "axios": "^0.19.2",
+    "extract-zip": "^2.0.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.0",
+    "node-stream-zip": "^1.11.2",
+    "request": "^2.88.2",
+    "util": "^0.12.3",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
